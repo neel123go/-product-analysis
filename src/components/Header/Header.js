@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
-        <div className='py-5 bg-slate-200'>
-            <Link className='m-4 text-gray-800 underline underline-offset-8' to='/'>HOME</Link>
-            <Link className='m-4 text-gray-800 underline underline-offset-8' to='/reviews'>REVIEWS</Link>
-            <Link className='m-4 text-gray-800 underline underline-offset-8' to='/dashboard'>DASHBOARD</Link>
-            <Link className='m-4 text-gray-800 underline underline-offset-8' to='/blogs'>BLOGS</Link>
-            <Link className='m-4 text-gray-800 underline underline-offset-8' to='/about'>ABOUT</Link>
+        <div className='py-5 bg-slate-200 flex justify-center items-center'>
+            <CustomLink className='m-4 underline underline-offset-8' to='/'>HOME</CustomLink>
+            <CustomLink className='m-4 underline underline-offset-8' to='/reviews'>REVIEWS</CustomLink>
+            <CustomLink className='m-4 underline underline-offset-8' to='/dashboard'>DASHBOARD</CustomLink>
+            <CustomLink className='m-4 underline underline-offset-8' to='/blogs'>BLOGS</CustomLink>
+            <CustomLink className='m-4 underline underline-offset-8' to='/about'>ABOUT</CustomLink>
         </div>
     );
 };
