@@ -1,0 +1,44 @@
+[
+    {
+        "id": 31934845,
+        "name": "Axis Paul",
+        "img": "https://minimaltoolkit.com/images/randomdata/male/32.jpg",
+        "rating": 5,
+        "text": "This shoe is one of the best shoes ever worn."
+    },
+    {
+        "id": 33435448,
+        "name": "Tamika Malagisi",
+        "img": "https://minimaltoolkit.com/images/randomdata/female/10.jpg",
+        "rating": 4.5,
+        "text": "I regularly use Arora Shoes. Trust me, It is best for you."
+    },
+    {
+        "id": 33425497,
+        "name": "Erik Thorup",
+        "img": "https://minimaltoolkit.com/images/randomdata/male/33.jpg",
+        "rating": 5,
+        "text": "The quality of this shoe is amazing"
+    },
+    {
+        "id": 76428797,
+        "name": "Wendi Landaal",
+        "img": "https://minimaltoolkit.com/images/randomdata/female/4.jpg",
+        "rating": 4.7,
+        "text": "Good quality according to price"
+    },
+    {
+        "id": 24005097,
+        "name": "Rodney Millares",
+        "img": "https://minimaltoolkit.com/images/randomdata/male/87.jpg",
+        "rating": 4.5,
+        "text": "Fantastic I love these shoes. Need to get the boot style next."
+    },
+    {
+        "id": 29871234,
+        "name": "Aaron Oldakowski",
+        "img": "https://minimaltoolkit.com/images/randomdata/male/21.jpg",
+        "rating": 4.9,
+        "text": "The most comfortable & best quality shoes I've ever had"
+    }
+]
