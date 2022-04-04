@@ -5,9 +5,9 @@ import Review from '../Review/Review';
 const Reviews = () => {
     const [reviews, setReviews] = useProductReview();
     return (
-        <div>
-            <h2 className='text-3xl mt-10'>What our Customers say!</h2>
-            <div className='grid grid-cols-4 gap-10 pt-10 p-20'>
+        <div className='max-w-screen-2xl mx-auto'>
+            <h2 className='text-2xl md:text-3xl mt-10'>What our Customers say!</h2>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-5 xl:gap-10 py-8 md:p-5 lg:p-8'>
                 {
                     reviews.map(review => <Review state='' key={review.id} review={review}></Review>)
                 }
