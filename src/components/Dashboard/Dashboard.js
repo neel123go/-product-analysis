@@ -12,7 +12,7 @@ const Dashboard = () => {
     return (
         <div className='mt-20 grid grid-cols-1 lg:grid-cols-2 xl:px-32 gap-10 xl:gap-60'>
             <div>
-                <h2 className='text-blue-600 mb-5 text-xl font-semibold'>MONTH WISE SELL</h2>
+                <h2 className='text-blue-600 mb-5 text-xl font-semibold text-center'>MONTH WISE SELL</h2>
                 <LineChart
                     className='mx-auto'
                     width={300}
@@ -29,7 +29,7 @@ const Dashboard = () => {
 
             </div>
             <div>
-                <h2 className='text-blue-600 mb-5 text-xl font-semibold'>INVESTMENT VS REVENUE</h2>
+                <h2 className='text-blue-600 mb-5 text-xl font-semibold text-center'>INVESTMENT VS REVENUE</h2>
                 <AreaChart
                     className='mx-auto'
                     width={300}

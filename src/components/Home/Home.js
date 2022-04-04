@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className='text-center'>
             <div className='grid grid-cols-1 lg:grid-cols-2 justify-between mt-10 lg:mt-20 max-w-7xl mx-auto'>
-                <div className="px-10 lg:pl-40 text-left">
+                <div className="px-10 xl:pl-40 text-left">
                     <h1 className='text-blue-500 md:text-6xl text-2xl md:mt-20'>Arora Shoes</h1>
                     <h4 className='mt-3 text-xl text-orange-600'>Good shoes take you good places.</h4>
                     <p className='mt-10 text-slate-600'>Arora Shoes is a footwear manufacturing company that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. The company is headquartered near Sylhet in the Bangladesh area.</p>
