@@ -9,7 +9,7 @@ const Home = () => {
     let count = 0;
     return (
         <div className='text-center'>
-            <div className='grid grid-cols-1 lg:grid-cols-2 justify-between mt-10 lg:mt-20 max-w-7xl mx-auto'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 justify-between mt-10 lg:mt-20'>
                 <div className="px-10 xl:pl-40 text-left">
                     <h1 className='text-blue-500 md:text-6xl text-2xl md:mt-20'>Arora Shoes</h1>
                     <h4 className='mt-3 text-xl text-orange-600'>Good shoes take you good places.</h4>

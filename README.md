@@ -2,10 +2,10 @@
 
 Live Site Link - [https://arora-shoes.netlify.app/](https://arora-shoes.netlify.app/)
 
-* This is a footwear selling site
-* Pera nai chill
-* keno lage shunno shunno
-* tuio ki kajer phake
+* First of all I created a navigation bar and created some route using react router.
+* In the home route i added a picture, website title and shown only 3 reviews of the customer.
+* In the reviews route I shown all reviews of the customer and in the dashboard route i created and shown two chart using Rechart.
+* I used Tailwind CSS framework for styling my website.
 
 # Getting Started with Create React App
 
