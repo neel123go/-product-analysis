@@ -5,7 +5,7 @@ const NotFound = () => {
     return (
         <div className='bg-slate-50'>
             <img className='w-2/4 mx-auto' src={NotFoundImage} alt="" />
-            <p className='text-2xl mt-10'>Opp's, The page you are looking for is not found.</p>
+            <p className='text-2xl mt-10 text-center'>Opp's, The page you are looking for is not found.</p>
         </div>
     );
 };

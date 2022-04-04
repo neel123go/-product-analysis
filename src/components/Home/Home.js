@@ -29,7 +29,7 @@ const Home = () => {
                     }
                 </div>
                 <div className='my-10'>
-                    <Link to='/reviews' className='text-purple-700 bg-purple-200 px-8 py-3 text-xl rounded-lg'>Show All Reviews</Link>
+                    <Link to='/reviews' className='text-purple-700 bg-purple-200 px-8 py-3 text-xl rounded-lg'>See All Reviews</Link>
                 </div>
             </div>
         </div>
