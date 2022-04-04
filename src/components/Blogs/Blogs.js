@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div className='px-40'>
+        <div className='px-10 md:px-20 lg:px-40 py-10'>
             <h2 className='text-3xl mt-10 text-center'>Question Answers</h2>
             <h2 className='mt-10 text-2xl text-left'>What is Context API?</h2>
             <p className='mt-5 text-slate-600'>The Context API is a component structure provided by the React framework, which allows us to easily access data at different levels of the component tree without passing props to every level. This can be the alternative to "prop drilling" or moving props from grandparent to parent to child, and so on. Context is additionally touted as a better, lighter approach to state management using Redux. To create context API is all you need React.createContext(). It returns a consumer and a provider. The provider could be a component that as its name suggests provides the state to its children. it'll hold the "store" and be the parent of all the components that may need that store. Consumer as it so happens could be a component that consumes and uses the state.</p>
