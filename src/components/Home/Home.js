@@ -8,22 +8,22 @@ const Home = () => {
     const [reviews, setReviews] = useProductReview();
     let count = 0;
     return (
-        <div>
-            <div className='grid grid-cols-2 justify-between mt-20'>
-                <div className="pl-40 text-left">
-                    <h1 className='text-blue-500 text-7xl mt-20'>Arora Shoes</h1>
+        <div className='text-center'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 justify-between mt-10 lg:mt-20 max-w-7xl mx-auto'>
+                <div className="px-10 lg:pl-40 text-left">
+                    <h1 className='text-blue-500 md:text-6xl text-2xl md:mt-20'>Arora Shoes</h1>
                     <h4 className='mt-3 text-xl text-orange-600'>Good shoes take you good places.</h4>
                     <p className='mt-10 text-slate-600'>Arora Shoes is a footwear manufacturing company that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. The company is headquartered near Sylhet in the Bangladesh area.</p>
                     <button className='text-purple-600 text-xl bg-purple-200 rounded-lg py-3 px-8 mt-8'>Live Demo</button>
                 </div>
                 <div className="flex items-center justify-center">
-                    <img className='w-260' src={bannerImage} alt="" />
+                    <img className='w-260 p-5' src={bannerImage} alt="" />
                 </div>
             </div>
 
-            <div className="customer-review px-40">
-                <h2 className='text-slate-800 text-4xl mt-24'>Customer Reviews({reviews.length})</h2>
-                <div className='grid grid-cols-3 gap-32 mt-14'>
+            <div className="px-0 md:px-10 lg:px-40 max-w-7xl mx-auto">
+                <h2 className='text-slate-800 text-3xl md:text-4xl lg:mt-24'>Customer Reviews({reviews.length})</h2>
+                <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 md:gap-20 xl:gap-32 mt-14'>
                     {
                         reviews.map(review => <Review count={count++} state='inHome' key={review.id} review={review}></Review>)
                     }

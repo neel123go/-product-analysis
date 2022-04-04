@@ -1,3 +1,12 @@
+# Arora Shoes
+
+Live Site Link - [https://arora-shoes.netlify.app/](https://arora-shoes.netlify.app/)
+
+* This is a footwear selling site
+* Pera nai chill
+* keno lage shunno shunno
+* tuio ki kajer phake
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
